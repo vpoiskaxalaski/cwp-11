@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Леонардо ДиКаприо",
+        "birth": "11 ноября, 1974",
+        "films":["Волк с Уолл-стрит (2013)", "Выживший (2015)","Спасти планету (2016)"],
+        "liked":33765,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_37859.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Мила Кунис",
+        "birth": "14 августа, 1983",
+        "films":["Шпион, который меня кинул (2018)", "Очень плохие мамочки 2 (2017)","Очень плохие мамочки (2016)"],
+        "liked":4117,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_52900.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Квентин Тарантино",
+        "birth": "27 марта, 1963 ",
+        "films":["Омерзительная восьмерка (2015)", "Death Proof Remake/Spoof (2012)","Kill Bill: Vol. 2 Remake/Spoof (2012)"],
+        "liked":11462,
+        "photo": "https://st.kp.yandex.net/images/actor_iphone/iphone360_7640.jpg"
+    }
+]
