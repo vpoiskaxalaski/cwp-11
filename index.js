@@ -13,7 +13,7 @@ const createActor = require("./handlers/createActor.js").createActor;
 const updateActor = require("./handlers/updateActor.js").updateActor;
 const deleteActor = require("./handlers/deleteActor.js").deleteActor;
 
-const images = require('./handlers/getImages');
+
 const logger = require('./log/log');
 //films
 const childProcess = require('child_process');
@@ -181,7 +181,7 @@ app.post('/api/actors/delete', (req, res) => {
 	});
 });
 
-app.use('/images/actors', images);
+app.use('/images/actors/', express.static('images'));
 app.use('/api', logger.router);
 
 app.listen(3000, () => {
